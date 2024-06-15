@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: LEDE 360T7 Builder
+name: 237 360T7 Builder
 
 on:
   repository_dispatch:
