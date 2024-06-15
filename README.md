@@ -4,7 +4,7 @@
 
 JCG Q30 PRO极简AP固件。
 
-其余为 LEDE 默认配置。
+其余为 默认配置。
 
 237大源码网址：https://github.com/padavanonly/immortalwrt-mt798x
 
