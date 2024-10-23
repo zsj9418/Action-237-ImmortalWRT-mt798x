@@ -24,3 +24,8 @@ sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(shell date +"%Y%m%d")-/1' include/image.mk
 
 # Modify ppp-down, add sleep 3
 sed -i '$a\\\nsleep 3' package/network/services/ppp/files/lib/netifd/ppp-down
+
+# 添加额外插件
+git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+git clone --depth=1 https://github.com/Thaolga/luci-app-nekoclash  package/luci-app-nekoclash
+git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
